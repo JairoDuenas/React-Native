@@ -6,9 +6,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Curso React Native</Text>
-      <Saludar name="Andres" />
-      <Saludar name="Carlos" />
-      <Saludar name="Francisco" />
+      <Saludar />
+      {/* <Saludar firstname="Andres" lastname="Camacho" />
+      <Saludar firstname="Carlos" lastname="Sanchez" />
+      <Saludar firstname="Pedro" lastname="Gonzalez" /> */}
       <LoginForm />
     </View>
   );
